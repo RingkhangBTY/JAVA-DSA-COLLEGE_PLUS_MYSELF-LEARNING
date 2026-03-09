@@ -16,24 +16,23 @@ public class CheckDuplicateElement {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println(isHaveDuplicateElement(arr,n));
+        System.out.println(isHasDuplicateElement(arr));
         System.out.println(containsDuplicate(arr));
     }
 
-
-    // this will only work for --> array ranging (1 to N) in a sorted order.
-    private static boolean isHaveDuplicateElement(int[] arr, int n) {
-        int sum = (n*(n+1))/2;
-        int actualSum = 0;
-
-        for (int ele:arr){
-            actualSum+=ele;
+    // works but has time complexity of O(N*N)
+    public static boolean isHasDuplicateElement(int[]nums){
+        for (int i = 0; i < nums.length-1; i++) {
+            for (int j = i+1; j < nums.length; j++) {
+                if (nums[i] == nums[j]){
+                    return true;
+                }
+            }
         }
-
-        return actualSum!=sum;
+        return false;
     }
 
-    // works for any kind of array input.
+    // Solving by using sorting algos
     private static boolean containsDuplicate(int[] nums){
         sortArr(nums);
 
@@ -45,7 +44,7 @@ public class CheckDuplicateElement {
     }
 
     private static void sortArr(int[] nums) {
-        for (int i = 1; i <nums.length ; i++) {
+        for (int i = 1; i < nums.length ; i++) {
             int j = i;
 
             while (j>0 && nums[j]<nums[j-1]){
