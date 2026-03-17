@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-//        int N = 3/2;
-//        System.out.println(N);
 
-//        System.out.println((0 /2));
-        int []arr = {0};
-        System.out.println(containsDuplicate(arr));
+        int x = 1534236469;
+        long a = x * 10L;
+//        Integer.MAX_VALUE
     }
 
 

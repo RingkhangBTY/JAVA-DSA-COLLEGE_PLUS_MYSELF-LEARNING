@@ -6,6 +6,8 @@ public class MinMaxValue {
                 1,3,3,4,2,12,0,34,-10,50
         };
 
+//        System.out.println();
+
         System.out.println("Max element: "+findMaxEle(arr));
         System.out.println("Min element: "+findMinEle(arr));
     }
