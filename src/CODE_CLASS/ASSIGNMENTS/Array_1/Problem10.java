@@ -36,7 +36,7 @@ public class Problem10 {
 
         sortArray(nums);
 
-        for (int ele: nums) System.out.print(ele+" ");e
+        for (int ele: nums) System.out.print(ele+" ");
     }
 
     private static void sortArray(int[] nums) {

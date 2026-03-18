@@ -24,26 +24,26 @@ import java.util.Scanner;
  * The second line contains two integers n and m (1≤n,m≤1000) — the number of rickshaws and cabs Ramu is going to use.
  * The third line contains n integers ai (0≤ai≤1000) — the number of times Ramu is going to use the rickshaw number i.
  * The fourth line contains m integers bi (0≤bi≤1000) — the number of times Ramu is going to use the cab number i.
+ *
+ * 2
+ * 1 3 7 19
+ * 2 3
+ * 2 5
+ * 4 4 4
+ * 4 3 2 1
+ * 1 3
+ * 798
+ * 1 2 3
+ *
+ *    For the first testcase ,
+ * The total cost of rickshaws = min( min(2 * 1, 3) + min(5 * 1, 3), 7) = min(5, 7) = 5
+ * The total cost of cabs = min( min(4 * 1, 3) + min(4 * 1, 3) + min(4 * 1, 3) , 7) = min ( 9, 7) = 7
+ * Total final cost = min( totalCabCost + totalRickshawCost , c4) = min( 5 + 7, 19) = min ( 12, 19) = 12
+ * We print 12.
  */
 
-/* https://hack.codingblocks.com/app/contests/9550/1089/problem
+// https://hack.codingblocks.com/app/contests/9550/1089/problem
 
-2
-1 3 7 19
-2 3
-2 5
-4 4 4
-4 3 2 1
-1 3
-798
-1 2 3
-
-   For the first testcase ,
-The total cost of rickshaws = min( min(2 * 1, 3) + min(5 * 1, 3), 7) = min(5, 7) = 5
-The total cost of cabs = min( min(4 * 1, 3) + min(4 * 1, 3) + min(4 * 1, 3) , 7) = min ( 9, 7) = 7
-Total final cost = min( totalCabCost + totalRickshawCost , c4) = min( 5 + 7, 19) = min ( 12, 19) = 12
-We print 12.
- */
 public class Problem7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

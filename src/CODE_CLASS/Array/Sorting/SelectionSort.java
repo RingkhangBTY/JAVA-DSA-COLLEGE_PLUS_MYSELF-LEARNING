@@ -9,6 +9,7 @@ public class SelectionSort {
         System.out.print("Enter size of array: ");
         int size = sc.nextInt();
         int []arr = new int[size];
+
         System.out.print("Enter "+size+" elements: ");
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
@@ -24,11 +25,13 @@ public class SelectionSort {
     public void sortUsingSelectionSort(int[]arr,int size){
         for (int i = 0; i < size-1; i++) {
             int minValueIndex = i;
+
             for (int j = i+1; j <size ; j++) {
                 if (arr[j]<arr[minValueIndex]){
                     minValueIndex = j;
                 }
             }
+
             swap(arr,i,minValueIndex);
         }
     }
