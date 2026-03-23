@@ -16,7 +16,7 @@ public class MaxSumOfASubarray {
         for(int i=0; i<nums.length; i++){
 
             sum = sum+nums[i];
-            ans = Math.max(sum,ans);
+            ans = Math.max(sum, ans);
 
             if(sum < 0 ){
                 sum = 0;

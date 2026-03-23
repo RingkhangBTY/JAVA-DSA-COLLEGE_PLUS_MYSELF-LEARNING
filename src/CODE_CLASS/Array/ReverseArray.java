@@ -11,6 +11,7 @@ public class ReverseArray {
         int size = sc.nextInt();
         int []arr = new int[size];
         System.out.print("Enter "+size+" elements: ");
+
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
