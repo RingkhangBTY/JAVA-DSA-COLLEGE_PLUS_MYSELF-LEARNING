@@ -1,4 +1,4 @@
-package MY_PRACTICE.Array;
+package MYSELF_LEARN.Array.Problems;
 
 public class MinMaxValue {
     public static void main(String[] args) {

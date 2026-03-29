@@ -1,7 +1,6 @@
-package MY_PRACTICE.Array;
+package MYSELF_LEARN.Array.OneD_Array_Alogos;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class SortingAlgos {
     public static void main(String[] args) {

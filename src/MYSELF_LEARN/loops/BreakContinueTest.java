@@ -1,4 +1,4 @@
-package MY_PRACTICE.loops;
+package MYSELF_LEARN.loops;
 
 public class BreakContinueTest {
     public static void main(String[] args) {

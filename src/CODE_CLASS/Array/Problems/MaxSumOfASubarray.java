@@ -13,12 +13,12 @@ public class MaxSumOfASubarray {
     public static int maxSubArray(int[] nums) {
         int ans = Integer.MIN_VALUE, sum = 0;
 
-        for(int i=0; i<nums.length; i++){
+        for (int num : nums) {
 
-            sum = sum+nums[i];
+            sum = sum + num;
             ans = Math.max(sum, ans);
 
-            if(sum < 0 ){
+            if (sum < 0) {
                 sum = 0;
             }
         }

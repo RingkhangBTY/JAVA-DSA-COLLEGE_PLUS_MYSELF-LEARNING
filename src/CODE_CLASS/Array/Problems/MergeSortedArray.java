@@ -38,7 +38,7 @@ public class MergeSortedArray {
         while (j < arr2.length){
             ansArr[k] = arr2[j];
             j++;
-            i++;
+            k++;
         }
 
         return ansArr;

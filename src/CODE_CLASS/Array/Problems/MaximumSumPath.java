@@ -22,12 +22,12 @@ public class MaximumSumPath {
         while (i<nums1.length && j<nums2.length){
             if (nums1[i]<nums2[j]) {
                 sum1 += nums1[i++];
-            }else if (nums1[i] >nums2[j]){
+            }else if (nums1[i] > nums2[j]){
                 sum2 += nums2[j++];
             }else{
                 maxSum += Math.max(sum1,sum2) + nums1[i];
 
-                sum1 = 0 ;
+                sum1 = 0;
                 sum2 = 0;
 
                 i++; j++;

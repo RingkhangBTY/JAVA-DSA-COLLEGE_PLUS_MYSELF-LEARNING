@@ -1,4 +1,4 @@
-package MY_PRACTICE.loops;
+package MYSELF_LEARN.loops;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package MY_PRACTICE.Array;
+package MYSELF_LEARN.Array.Problems;
 
 // https://leetcode.com/problems/number-of-good-pairs/description/
 

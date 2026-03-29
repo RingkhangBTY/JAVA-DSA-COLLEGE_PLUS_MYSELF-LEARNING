@@ -1,4 +1,4 @@
-package MY_PRACTICE.TEMP;
+package MYSELF_LEARN.TEMP;
 
 import java.util.ArrayList;
 import java.util.List;

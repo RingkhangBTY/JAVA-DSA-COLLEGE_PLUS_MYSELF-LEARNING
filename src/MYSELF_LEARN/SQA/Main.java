@@ -1,4 +1,4 @@
-package MY_PRACTICE.SQA;
+package MYSELF_LEARN.SQA;
 
 
 import java.util.Scanner;

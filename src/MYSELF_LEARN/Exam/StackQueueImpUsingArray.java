@@ -1,4 +1,4 @@
-package MY_PRACTICE.Exam;
+package MYSELF_LEARN.Exam;
 
 public class StackQueueImpUsingArray {
     public static void main(String[] args) {

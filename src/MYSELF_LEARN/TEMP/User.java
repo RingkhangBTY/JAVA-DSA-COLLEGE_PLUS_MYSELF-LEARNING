@@ -1,4 +1,4 @@
-package MY_PRACTICE.TEMP;
+package MYSELF_LEARN.TEMP;
 
 public class User {
     private String username;

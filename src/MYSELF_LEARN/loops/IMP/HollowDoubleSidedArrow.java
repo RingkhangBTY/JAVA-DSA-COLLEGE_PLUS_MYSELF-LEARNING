@@ -1,4 +1,4 @@
-package MY_PRACTICE.loops.IMP;
+package MYSELF_LEARN.loops.IMP;
 
 /*
                             1

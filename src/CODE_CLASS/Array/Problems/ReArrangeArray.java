@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 /*
     eg: {1,0,0,1,0,0,1} output: {1,1,1,0,0,0,0}
+    --> 1 2 3 --> 3 1 2
  */
 public class ReArrangeArray {
     public static void main(String[] args) {

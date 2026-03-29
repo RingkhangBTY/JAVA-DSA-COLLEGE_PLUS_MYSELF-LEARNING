@@ -1,4 +1,4 @@
-package MY_PRACTICE.Exam;
+package MYSELF_LEARN.Exam;
 
 public class Stack {
     private final int[] arr ;
