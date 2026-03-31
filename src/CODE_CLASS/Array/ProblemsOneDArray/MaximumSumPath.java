@@ -1,4 +1,4 @@
-package CODE_CLASS.Array.Problems;
+package CODE_CLASS.Array.ProblemsOneDArray;
 
 // https://hack.codingblocks.com/app/contests/9550/552/problem
 

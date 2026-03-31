@@ -1,4 +1,4 @@
-package CODE_CLASS.Array.Problems;
+package CODE_CLASS.Array.ProblemsOneDArray;
 
 public class TrappingRainWater {
     public static void main(String[] args) {

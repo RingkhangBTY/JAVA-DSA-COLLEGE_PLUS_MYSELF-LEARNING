@@ -1,4 +1,4 @@
-package CODE_CLASS.Array.Problems;
+package CODE_CLASS.Array.ProblemsOneDArray;
 
 import java.util.Arrays;
 

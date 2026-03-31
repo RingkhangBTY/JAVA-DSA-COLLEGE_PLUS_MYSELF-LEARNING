@@ -1,4 +1,4 @@
-package MYSELF_LEARN.Array.Problems;
+package MYSELF_LEARN.Array.OneD_Problems;
 
 public class RemoveDuplicateElement {
     /**

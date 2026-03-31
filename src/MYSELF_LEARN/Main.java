@@ -1,6 +1,7 @@
 package MYSELF_LEARN;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,6 +35,10 @@ public class Main {
 //        System.out.println(i);
 
         System.out.println(2/3);
+
+        Random random = new Random();
+        System.out.println(random.nextInt());
+//        System.out.println();
     }
 
     private static void print(int [] nums, int target){

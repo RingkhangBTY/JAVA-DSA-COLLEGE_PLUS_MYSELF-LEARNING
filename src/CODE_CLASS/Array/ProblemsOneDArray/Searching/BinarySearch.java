@@ -1,4 +1,4 @@
-package CODE_CLASS.Array.Searching;
+package CODE_CLASS.Array.ProblemsOneDArray.Searching;
 
 import java.util.Arrays;
 import java.util.Scanner;

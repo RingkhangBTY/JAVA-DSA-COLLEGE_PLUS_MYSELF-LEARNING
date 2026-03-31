@@ -1,4 +1,4 @@
-package CODE_CLASS.Array.Problems;
+package CODE_CLASS.Array.ProblemsOneDArray;
 
 
 // https://leetcode.com/problems/maximum-subarray/description/
