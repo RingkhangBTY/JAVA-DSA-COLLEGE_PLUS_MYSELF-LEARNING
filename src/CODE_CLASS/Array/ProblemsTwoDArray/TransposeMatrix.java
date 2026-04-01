@@ -3,12 +3,12 @@ package CODE_CLASS.Array.ProblemsTwoDArray;
 import java.util.Arrays;
 
 public class TransposeMatrix {
-    //TODO: --> Need to solve today
     public static void main(String[] args) {
         int [][] arr = {
                 {1,2,3},
                 {4,5,6},
-                {7,8,9}
+                {7,8,9},
+                {4,2,2}
         };
 
         int [][] ans = transpose(arr);
@@ -17,6 +17,7 @@ public class TransposeMatrix {
             for (int j = 0; j < ans[0].length; j++) {
                 System.out.print(an[j] + " ");
             }
+            System.out.println();
         }
     }
 

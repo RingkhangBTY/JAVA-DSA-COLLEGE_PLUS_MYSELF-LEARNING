@@ -18,6 +18,7 @@ public class CheckDuplicateElement {
 
         System.out.println(isHasDuplicateElement(arr));
         System.out.println(containsDuplicate(arr));
+
     }
 
     // works but has time complexity of O(N*N)
