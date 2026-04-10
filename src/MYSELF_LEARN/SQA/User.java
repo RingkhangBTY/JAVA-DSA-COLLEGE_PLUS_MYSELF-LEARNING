@@ -1,4 +1,4 @@
-package MYSELF_LEARN.TEMP;
+package MYSELF_LEARN.SQA;
 
 public class User {
     private String username;
