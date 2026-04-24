@@ -1,8 +1,8 @@
 package CODE_CLASS.Array.ProblemsOneDArray;
 
-public class SlidingWindow {
+public class fixedSlidingWindow {
     public static void main(String[] args) {
-        int [] arr = {2,3,1};
+        int [] arr = {2,3,1,1,6,2};
 
         System.out.println(maxSum(arr,3));
 
